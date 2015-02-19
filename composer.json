@@ -1,0 +1,34 @@
+{
+	"name" : "appserver-io-labs/laravel-application",
+	"description" : "Approach for a Laravel 5.x appserver.io integration .",
+	"homepage" : "https://github.com/appserver-io-labs/laravel-application",
+	"license" : "OSL-3.0",
+	"authors" : [{
+			"name" : "Tim Wagner",
+			"email" : "tw@appserver.io",
+			"homepage" : "http://www.appserver.io",
+			"role" : "Developer"
+		}
+	],
+	"require" : {
+		"php" : ">=5.4.0"
+	},
+	"require-dev" : {
+		"laravel/laravel" : "~5.0",
+		"appserver-io/build" : "~1.0",
+		"appserver-io/appserver" : "~1.0"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"AppserverIo\\Labs\\Laravel" : [
+				"src/",
+				"tests/"
+			]
+		}
+	},
+	"config" : {
+		"github-oauth" : {
+			"github.com" : "604a3b5943228e434a5b52c2ba3cf72286d30db9"
+		}
+	}
+}
