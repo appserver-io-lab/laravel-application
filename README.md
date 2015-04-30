@@ -6,6 +6,12 @@ This is a first approach, to wrap Laravel 5.x in a native appserver.io Applicati
 
 > As the actual `pthreads` version appserver.io uses is not able to handle closures, this is only a **NOT WORKING** idea, that hopefully will work with appserver.io > 1.1. If you'll try this in the actual version, you'll receive a `PHP Fatal error:  Uncaught exception 'Exception' with message 'Serialization of 'Closure' is not allowed' in /opt/appserver/vendor/appserver-io-labs/laravel-application/src/AppserverIo/Labs/Laravel/Application.php:191` on application server startup.
 
+
+## Issues
+In order to bundle our efforts we would like to collect all issues regarding this package in [the main project repository's issue tracker](https://github.com/appserver-io/appserver/issues).
+Please reference the originating repository as the first element of the issue title e.g.:
+`[appserver-io/<ORIGINATING_REPO>] A issue I am having`
+
 ## Installation
 
 To install the necessary classes, simply do the following, assumed you're on Linux or Mac OS X
